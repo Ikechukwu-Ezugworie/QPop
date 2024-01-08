@@ -1,0 +1,63 @@
+{
+  "level1": [
+    "What's your name?",
+    "Where are you from?",
+    "What's your favorite food?",
+    "Do you have any siblings?",
+    "What do you do for fun?",
+    "What kind of music do you like?",
+    "Do you have any pets?",
+    "What's your favorite movie and why?",
+    "What's your favorite book?",
+    "What's your favorite TV show?"
+  ],
+  "level2": [
+    "What are your life goals?",
+    "What are your hobbies?",
+    "What do you value most in life?",
+    "What is your biggest fear?",
+    "What makes you happy?",
+    "What is your proudest achievement?",
+    "What do you like to do when you're alone?",
+    "What's your favorite memory?",
+    "What's your biggest regret?",
+    "What motivates you?"
+  ],
+  "level3": [
+    "What is your philosophy on life?",
+    "What is your greatest weakness?",
+    "What is your greatest strength?",
+    "What is your idea of a perfect day?",
+    "What is your idea of a perfect relationship?",
+    "What is your idea of a perfect life?",
+    "What is the most important thing you've learned in life?",
+    "What are you most passionate about?",
+    "What do you think is the meaning of life?",
+    "What do you want to be remembered for?"
+  ],
+  "level4": [
+    "What do you value most in a relationship?",
+    "What is your love language?",
+    "Have you ever been in love?",
+    "What is your idea of a perfect date?",
+    "What are your short-term and long-term goals?",
+    "What is your family like?",
+    "How do you typically spend your weekends?",
+    "What are some of your hobbies or interests?",
+    "How do you handle conflict in a relationship?",
+    "What are your thoughts on marriage and having children?",
+    "What are some of your favorite memories from childhood or teenage years?"
+  ],
+  "level5": [
+    "What is your favorite childhood memory?",
+    "If you could have any superpower, what would it be and why?",
+    "What is the most interesting place you have ever visited?",
+    "What is your favorite thing about your current job?",
+    "If you could travel back in time, what era would you go to and why?",
+    "What is your favorite thing to do on weekends?",
+    "If you could switch lives with anyone for a day, who would it be and why?",
+    "What is the best advice you have ever received?",
+    "What is the one thing on your bucket list that you haven't done yet?",
+    "What is your favorite quote and why?"
+  ]
+}

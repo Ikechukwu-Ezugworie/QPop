@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="8dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/button5Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:background="@color/white"
+                android:text="Categories"/>
+
+<!--           <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--               android:layout_width="wrap_content"-->
+<!--               android:layout_height="wrap_content">-->
+<!--               <com.google.android.material.card.MaterialCardView-->
+<!--                   android:id="@+id/button1"-->
+<!--                   android:layout_height="wrap_content"-->
+<!--                   android:layout_width="wrap_content"-->
+<!--                   app:cardElevation="10dp"-->
+<!--                   app:cardCornerRadius="20dp"-->
+<!--                   app:cardBackgroundColor="@color/white"-->
+<!--                   app:cardMaxElevation="12dp"-->
+<!--                   app:cardPreventCornerOverlap="true"-->
+<!--                   app:cardUseCompatPadding="true"-->
+<!--                   android:clickable="true"-->
+<!--                   android:focusable="true"-->
+<!--                   android:checkable="true">-->
+
+<!--                   <TextView-->
+<!--                       android:id="@+id/button1Text"-->
+<!--                       android:layout_width="wrap_content"-->
+<!--                       android:layout_height="wrap_content"-->
+<!--                       android:layout_margin="16dp"-->
+<!--                       android:textAllCaps="true"-->
+<!--                       android:background="@color/white"-->
+<!--                       android:text="Knowing each other"/>-->
+
+<!--               </com.google.android.material.card.MaterialCardView>-->
+
+<!--               <com.google.android.material.card.MaterialCardView-->
+<!--                   android:id="@+id/button2"-->
+<!--                   android:layout_height="wrap_content"-->
+<!--                   android:layout_width="wrap_content"-->
+<!--                   app:cardElevation="10dp"-->
+<!--                   app:cardCornerRadius="20dp"-->
+<!--                   app:cardBackgroundColor="@color/white"-->
+<!--                   app:cardMaxElevation="12dp"-->
+<!--                   app:cardPreventCornerOverlap="true"-->
+<!--                   app:cardUseCompatPadding="true"-->
+<!--                   android:clickable="true"-->
+<!--                   android:focusable="true"-->
+<!--                   android:checkable="true">-->
+
+<!--                   <TextView-->
+<!--                       android:id="@+id/button2Text"-->
+<!--                       android:layout_width="wrap_content"-->
+<!--                       android:layout_height="wrap_content"-->
+<!--                       android:layout_margin="16dp"-->
+<!--                       android:textAllCaps="true"-->
+<!--                       android:background="@color/white"-->
+<!--                       android:text="Getting closer"/>-->
+
+<!--               </com.google.android.material.card.MaterialCardView>-->
+
+<!--           </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+<!--            <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content">-->
+<!--                <com.google.android.material.card.MaterialCardView-->
+<!--                    android:id="@+id/button3"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    app:cardElevation="10dp"-->
+<!--                    app:cardCornerRadius="20dp"-->
+<!--                    app:cardBackgroundColor="@color/white"-->
+<!--                    app:cardMaxElevation="12dp"-->
+<!--                    app:cardPreventCornerOverlap="true"-->
+<!--                    app:cardUseCompatPadding="true"-->
+<!--                    android:clickable="true"-->
+<!--                    android:focusable="true"-->
+<!--                    android:checkable="true">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/button3Text"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_margin="16dp"-->
+<!--                        android:textAllCaps="true"-->
+<!--                        android:background="@color/white"-->
+<!--                        android:text="Getting deeper"/>-->
+
+<!--                </com.google.android.material.card.MaterialCardView>-->
+
+<!--                <com.google.android.material.card.MaterialCardView-->
+<!--                    android:id="@+id/button4"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    app:cardElevation="10dp"-->
+<!--                    app:cardCornerRadius="20dp"-->
+<!--                    app:cardBackgroundColor="@color/white"-->
+<!--                    app:cardMaxElevation="12dp"-->
+<!--                    app:cardPreventCornerOverlap="true"-->
+<!--                    app:cardUseCompatPadding="true"-->
+<!--                    android:clickable="true"-->
+<!--                    android:focusable="true"-->
+<!--                    android:checkable="true">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/button4Text"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_margin="16dp"-->
+<!--                        android:textAllCaps="true"-->
+<!--                        android:background="@color/white"-->
+<!--                        android:text="Personal Life"/>-->
+
+<!--                </com.google.android.material.card.MaterialCardView>-->
+
+<!--            </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+<!--            <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content">-->
+<!--                <com.google.android.material.card.MaterialCardView-->
+<!--                    android:id="@+id/button5"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    app:cardElevation="10dp"-->
+<!--                    app:cardCornerRadius="20dp"-->
+<!--                    app:cardBackgroundColor="@color/white"-->
+<!--                    app:cardMaxElevation="12dp"-->
+<!--                    app:cardPreventCornerOverlap="true"-->
+<!--                    app:cardUseCompatPadding="true"-->
+<!--                    android:clickable="true"-->
+<!--                    android:focusable="true"-->
+<!--                    android:checkable="true">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/question"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_margin="16dp"-->
+<!--                        android:textAllCaps="true"-->
+<!--                        android:background="@color/white"-->
+<!--                        android:text="Random questions"/>-->
+
+<!--                </com.google.android.material.card.MaterialCardView>-->
+
+
+<!--            </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="8dp"
+                android:padding="16dp"
+                android:text="Getting to know each other"
+                app:layout_constraintHeight_percent="0.1"
+                app:layout_constraintEnd_toEndOf="@+id/question"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintWidth_percent="0.2" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="8dp"
+                android:padding="16dp"
+                android:text="Getting closer"
+                app:layout_constraintEnd_toEndOf="@+id/button1"
+                app:layout_constraintHeight_percent="0.1"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintWidth_percent="0.2" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="8dp"
+                android:padding="16dp"
+                android:text="Deepening the friendship"
+                app:layout_constraintEnd_toEndOf="@+id/button1"
+                app:layout_constraintHeight_percent="0.1"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintWidth_percent="0.2" />
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="8dp"
+                android:padding="16dp"
+                android:text="Intimacy and personal life"
+                app:layout_constraintEnd_toEndOf="@+id/button1"
+                app:layout_constraintHeight_percent="0.1"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintWidth_percent="0.2" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="8dp"
+                android:padding="16dp"
+                android:text="Random questions"
+                app:layout_constraintEnd_toEndOf="@+id/button1"
+                app:layout_constraintHeight_percent="0.1"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintWidth_percent="0.2" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
